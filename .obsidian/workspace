@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "storage/index.md",
+            "file": "README_RU.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "storage/index.md",
+            "file": "README_RU.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "storage/index.md",
+                "file": "README_RU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,10 +103,11 @@
   },
   "active": "ef107fca4a7147dc",
   "lastOpenFiles": [
-    "storage/index.md",
-    "README.md",
     "README_RU.md",
     "storage_ru/index_ru.md",
+    "storage/index_ru.md",
+    "storage/index.md",
+    "README.md",
     "images/index_3.png",
     "images/index_1.png",
     "images/index_0.png"
