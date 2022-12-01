@@ -67,7 +67,7 @@
 
 [Как проверить, что интеграция прошла успешно](#how-to-check-up-the-successful-integration)
 
-## Требования для подключения
+## Требования для подключения <a name="#connection-requirements"></a>
 
 ### Требования к ПО
 
@@ -85,7 +85,7 @@
 
 * Android/iOS
 
-## Как добавить библиотеку GGAnalytics в проект
+## Как добавить библиотеку GGAnalytics в проект <a name="#how-to-add-gg-analytics-library-to-the-project"></a>
 
 Существует три способа добавления библиотеки **GGAnalytics** в проект:
 
@@ -182,7 +182,7 @@ private void InitAndSetupAnalytics()
 
 И настроить библиотеку на панели **GG Analytica Configuration (Script)** проекта Unity.
 
-### Как настроить библиотеку GGAnalytics
+### Как настроить библиотеку GGAnalytics <a name="how-to-configure-gg-analytics-library"></a>
 
 Библиотека может быть настроена на панеле **GG Analytics Configuration (Script)**
 
@@ -200,7 +200,7 @@ private void InitAndSetupAnalytics()
 |Register App Pause        |Фиксация в журнале отладки каждый раз, когда приложение было свернуто/приостановлено. Рекомендуется отключить во время интеграции                                                                                | turned on (рекомендовано)  |
 |Log Level                 |Значения в журнале регистрации в консоли Unity. Содержат следующие значения: DEBUG (регистрация всех сообщений), WARNING (регистрация предупреждений и ошибок), ERROR (регистрация только сообщений об ошибках), OFF (регистрация выключена)    | DEBUG (по умолчанию)       |
 
-## Как отслеживать покупки
+## Как отслеживать покупки <a name="#how-to-track-purchase"></a>
 
 Для отслеживания любых событий используйте методы глобального объекта **GGAnalytics.Instance**
 
@@ -227,7 +227,7 @@ GGAnalytics.Instance.LogPurchase("USD", 0.99f, new Dictionary<string, object>
 });  
 ```
 
-## Как отслеживать случайные события
+## Как отслеживать случайные события <a name="#how-to-track-random-events"></a>
 
 Для отслеживания любых событий используйте методы глобального объекта **GGAnalytics.Instance**
 
@@ -252,7 +252,7 @@ GGAnalytics.Instance.LogEvent("SCENE_OPEN", new Dictionary<string, object>
 });
 ```
 
-## Как проверить, что интеграция прошла успешно
+## Как проверить, что интеграция прошла успешно <a name="#how-to-check-up-the-successful-integration"></a>
 
 Сообщения об отправленных событиях должны быть показаны в командной строке каждый раз, когда метод **GGAnalitics.Instance** вызывается.
 
