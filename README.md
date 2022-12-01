@@ -11,4 +11,4 @@ To use download [Obsidian MD](https://obsidian.md/) and open clone of this rep
 
 Or just use as a collection of md files.
 
-For details see [index.md](storage/index.md)
+For details see [this](storage/GGAnalytics%20Library_en.md)
