@@ -85,7 +85,7 @@ To receive a token, send following information on a.bobrov@greengreystudio.com:
 
 * Android/iOS
 
-To connect the library see [How to configure GGAnalytics Library]()
+To connect the library see [How to configure GGAnalytics Library](#how-to-configure-gg-analytics-library)
 
 ## How to Add GGAnalytics Library to the Project
 
@@ -204,7 +204,7 @@ The settings are described in the table below:
 |Register App Pause        |Fixation every time the application was minimized/paused in Debug logging. It is recommended to be turned off while integrating                                                                                | turned on (recommended)  |
 |Log Level                 |Log level in Unity console. Contain the following values: DEBUG (logging all the messages), WARNING (logging warning and errors messages), ERROR (logging only error messages), OFF (logging is turned off)    | DEBUG (by default)       |
 
-To check if the library set up correctly see [How to Check up the Successful Integration]()
+To check if the library set up correctly see [How to Check up the Successful Integration](#how-to-check-up-the-successful-integration)
 
 ## How to Track Purchase <a name="how-to-track-purchase"></a>
 
@@ -233,7 +233,7 @@ GGAnalytics.Instance.LogPurchase("USD", 0.99f, new Dictionary<string, object>
 });  
 ```
 
-To track random events see [How to Track Random Events]()
+To track random events see [How to Track Random Events](#how-to-track-random-events)
 
 ## How to Track Random Events <a name="how-to-track-random-events"></a>
 
