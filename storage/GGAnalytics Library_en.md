@@ -95,9 +95,9 @@ There are three ways to add **GGAnalytics Library** to the project:
 * via code;
 * combined.
 
-The examples are available in **Green Gray Analytics Unity modul**:
+The examples are available in **Green Grey Analytics Unity module**:
 
-![img7]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img7.png")
+![img1](../images/img_1.png)
 
 ### How to add GGAnalytics Library to the Project via Unity project
 
@@ -108,11 +108,11 @@ To add the library to the Unity project :
 2. Click **+** and select **Add package from git URL…** from the dropdown menu   
 
 
-  ![img1](C:\Users\v.kk\Documents\Documentation\GGAnalitics Library\img\img1.png)
+  ![img2](../images/img_2.png)
   
 3. Specify the following link in the opened string and click **Add**:
 
-`https://github.com/GreenGreyStudioOfficial/dmp_unity_library.git#1.3.0`
+`https://github.com/GreenGreyStudioOfficial/dmp_unity_library.git#1.3.4`
 
 4. Create the game object **GGAnalytics** for the actual scene.  
 
@@ -122,7 +122,7 @@ For this go to **GreenGrey → Analytics → Create GGAnalytics GameObject**
 
 **GGAnalytics**  will be shown in the panel **Hierarchy**:
 
-![img3]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img3.png")
+![img3](../images/img_3.png)
 
 > ℹ️ The object **GGAnalytics** manages dispatches of analytic information to the server 
 
@@ -130,7 +130,7 @@ For this go to **GreenGrey → Analytics → Create GGAnalytics GameObject**
 
   6. Specify the received token in the field **Api Key** in the panel **GG Analytics Configuration (Script)**
   
-![img4]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img4.png")
+![img4](../images/img_4.png)
 
 
 > ⚠️ **Api Key** is used while **Debug Mode** is turned on. For release **Debug Mode** must be turned off so that released keys can be used.
@@ -190,7 +190,7 @@ To check if the library is connected correctly see [How to Check up the Successf
 
 The library can be configured in the panel **GG Analytics Configuration (Script)**
 
- ![img4]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img4.png")
+ ![img4](../images/img_4.png)
  
 The settings are described in the table below:
 
@@ -268,7 +268,7 @@ Messages about sent events must be shown in the **Command Prompt** every time **
 
 > ⚠️Be sure **Debug Mode** is turned on (see [How to configure GGAnalytics LIbrary](#how-to-configure-gg-analytics-library))
 
-![img5]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img5.png")
+![img5](../images/img_5.png)
 
 To check up the validity of the messages use personal dashboard in **Tableau**.
 
@@ -280,6 +280,6 @@ For this:
 
 2. Match that all sent messages from your side are received by a server
 
-![img6]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img6.png")
+![img6](../images/img_6.png)
 
 To connect the library correctly see [How to Add GGAnalytics Library to the Project](#how-to-add-gg-analytics-library-to-the-project)  

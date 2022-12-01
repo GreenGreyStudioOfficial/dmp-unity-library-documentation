@@ -93,9 +93,9 @@
 * с помощью кода;
 * комбинированный.
 
-Примеры доступны в **Green Gray Analytics Unity modul**:
+Примеры доступны в **Green Grey Analytics Unity module**:
 
-![img7]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img7.png")
+![img1](../images/img_1.png)
 
 ### Как добавить GGAnalyticsв проект с помощью проекта Unity
 
@@ -106,11 +106,11 @@
 2. Кликните  **+** и выберите **Add package from git URL…**  из выпадающего меню   
 
 
-  ![img1](C:\Users\v.kk\Documents\Documentation\GGAnalitics Library\img\img1.png)
+  ![img2](../images/img_2.png)
   
 3. Введите следующую ссылку в открывшуюся строку с кликните **Add**:
 
-`https://github.com/GreenGreyStudioOfficial/dmp_unity_library.git#1.3.0`
+`https://github.com/GreenGreyStudioOfficial/dmp_unity_library.git#1.3.4`
 
 4. Создайте объект игры **GGAnalytics** для текущей сцены.  
 
@@ -120,7 +120,7 @@
 
 **GGAnalytics**  будет показан на панели **Hierarchy**:
 
-![img3]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img3.png")
+![img3](../images/img_3.png)
 
 > ℹ️ Объект **GGAnalytics** управляет отправкой аналитической информации на сервер.
 
@@ -128,7 +128,7 @@
 
   6. Укажите полученный токен в поле **Api Key** на панели **GG Analytics Configuration (Script)**
   
-![img4]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img4.png")
+![img4](../images/img_4.png)
 
 
 > ⚠️ **Api Key** используется, пока включен **Debug Mode**. Для релизных версий **Debug Mode** должен быть выключен. Используйте релизный ключ.
@@ -186,7 +186,7 @@ private void InitAndSetupAnalytics()
 
 Библиотека может быть настроена на панеле **GG Analytics Configuration (Script)**
 
- ![img4]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img4.png")
+ ![img4](../images/img_4.png)
  
 Настройки описаны в таблице ниже:
 
@@ -258,7 +258,7 @@ GGAnalytics.Instance.LogEvent("SCENE_OPEN", new Dictionary<string, object>
 
 > ⚠️ Убедитесь, что режим **Debug Mode** выключен (см. [Как настроить библиотеку GGAnalytics](#how-to-configure-gg-analytics-library))
 
-![img5]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img5.png")
+![img5](../images/img_5.png)
 
 Для проверки валидации сообщений используйте личный кабинет в **Tableau**.
 
@@ -270,4 +270,4 @@ GGAnalytics.Instance.LogEvent("SCENE_OPEN", new Dictionary<string, object>
 
 2. Убедитесь, что все сообщения, отправленные с вашего приложения, получены сервером
 
-![img6]("C:\Users\79037\Documents\GG\Documentation\GGAnalitics Library\img\img6.png")
+![img6](../images/img_6.png)
