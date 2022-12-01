@@ -67,7 +67,7 @@ Benefits of analytics use:
 
 [How to Check up the Successful Integration](#how-to-check-up-the-successful-integration)
 
-## Connection Requirements
+## Connection Requirements <a name="connection-requirements"></a>
 
 ### Software Requirements
 
@@ -99,7 +99,7 @@ The examples are available in **Green Grey Analytics Unity module**:
 
 ![img1](../images/img_1.png)
 
-### How to add GGAnalytics Library to the Project via Unity project
+### How to add GGAnalytics Library to the Project via Unity project <a name="how-to-add-gg-analytics-library-to-the-project"></a>
 
 To add the library to the Unity project :
 
@@ -186,7 +186,7 @@ And set it up in the panel **GG Analytica Configuration (Script)** of Unity proj
 
 To check if the library is connected correctly see [How to Check up the Successful Integration](#how-to-check-up-the-successful-integration) 
 
-### How to configure GGAnalytics Library
+### How to configure GGAnalytics Library <a name="how-to-configure-gg-analytics-library"></a>
 
 The library can be configured in the panel **GG Analytics Configuration (Script)**
 
@@ -206,7 +206,7 @@ The settings are described in the table below:
 
 To check if the library set up correctly see [How to Check up the Successful Integration]()
 
-## How to Track Purchase
+## How to Track Purchase <a name="how-to-track-purchase"></a>
 
 To track any events use methods of the global object **GGAnalytics.Instance**
 
@@ -235,7 +235,7 @@ GGAnalytics.Instance.LogPurchase("USD", 0.99f, new Dictionary<string, object>
 
 To track random events see [How to Track Random Events]()
 
-## How to Track Random Events
+## How to Track Random Events <a name="how-to-track-random-events"></a>
 
 To track any events use methods of the global object **GGAnalytics.Instance**
 
@@ -262,7 +262,7 @@ GGAnalytics.Instance.LogEvent("SCENE_OPEN", new Dictionary<string, object>
 
 To track purchases see [How to Track Purchase](#how-to-track-purchase)
 
-## How to Check up the Successful Integration
+## How to Check up the Successful Integration <a name="how-to-check-up-the-successful-integration"></a>
 
 Messages about sent events must be shown in the **Command Prompt** every time **GGAnalitics.Instance** methods are used.
 
